@@ -23,6 +23,9 @@
 [![Build Status](https://travis-ci.org/apache/cordova-ios.svg?branch=master)](https://travis-ci.org/apache/cordova-ios)
 [![codecov.io](https://codecov.io/github/apache/cordova-ios/coverage.svg?branch=master)](https://codecov.io/github/apache/cordova-ios?branch=master)
 
+Important:
+Delete this fork when the base repo (https://github.com/apache/cordova-ios) releases 4.6 and fixes the issue https://github.com/apache/cordova-ios/pull/418 .
+
 Cordova iOS
 =============================================================
 Cordova iOS is an iOS application library that allows for Cordova-based projects to be built for the iOS Platform. Cordova based applications are, at the core, applications written with web technology: HTML, CSS and JavaScript.
