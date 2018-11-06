@@ -728,7 +728,8 @@
     NSString *urlAsString = [url absoluteString];
     return (urlAsString == (id) [NSNull null] || [urlAsString length]==0 || [urlAsString isEqualToString:@"about:blank"]);
 }
- - (bool)checkAndReinitViewUrl
+
+- (bool)checkAndReinitViewUrl
 {
     NSURL* appURL = [self appUrl];
     if ([self isUrlEmpty: [self.webViewEngine URL]] && ![self isUrlEmpty: appURL]) {
