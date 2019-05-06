@@ -53,7 +53,6 @@ try {
 shell.rm('-rf', dstWwwDir);
 shell.rm('-rf', path.join(dstDir, '_CodeSignature'));
 shell.rm('-rf', path.join(dstDir, 'PkgInfo'));
-shell.rm('-rf', path.join(dstDir, 'embedded.mobileprovision'));
 
 // Copy www dir recursively
 var code;
